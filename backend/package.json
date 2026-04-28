@@ -2,12 +2,12 @@
   "name": "neurogrid-backend",
   "version": "1.0.0",
   "private": true,
-  "description": "NeuroGrid AI Backend — Node.js + Express + Socket.IO + AI Routing Engine",
+  "description": "NeuroGrid AI Backend \u2014 Node.js + Express + Socket.IO + AI Routing Engine",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js",
-    "dev:debug": "nodemon --inspect src/index.js"
+    "start": "node init && node src/index.js",
+    "dev": "node init && nodemon src/index.js",
+    "dev:debug": "node init && nodemon --inspect src/index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
